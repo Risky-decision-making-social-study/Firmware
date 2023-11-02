@@ -1,0 +1,1 @@
+python3 server.py config_left.cfg -v -l ./logs_server/server_apparatus_left.log
