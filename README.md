@@ -40,6 +40,24 @@ pip install smbus
 5. Test the setup by running `./start_server_left.sh` or `./start_server_right.sh`.
 6. Setup autostart for `./start_server_left.sh` or `./start_server_right.sh` at boot.
 
+#### Time synchronization
+
+1. Run the following command to enable NTP time synchronization:
+
+```bash
+sudo timedatectl set-ntp true
+```
+
+2. To check the status of the time synchronization, run the following command:
+
+```bash
+timedatectl status
+```
+
+This will display the current time and date, as well as the status of the time synchronization.
+
+It’s important to have accurate time synchronization for the synchronized operation of the apparatuses. If you need more information about time synchronization on Raspberry Pi, you can check out this [guide](https://raspberrytips.com/time-sync-raspberry-pi/) which explains how to configure time synchronization using timedatectl and NTP.
+
 #### Update server settings
 
 It’s important to update and calibrate some hardware components settings, especially the `as5048b_zeroreg` and `*_range settings` in the `config_left.cfg` and `config_right.cfg` files. This is because the rotation range of the servo motors and the zero position of the carousel will be different for each component and apparatus.

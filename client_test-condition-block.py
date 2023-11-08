@@ -10,7 +10,7 @@ No criterion needs to be passed to move from this session type
 Event sequence:
     1. The food dispensers are baited in view of the monkey (so that the monkey sees that the mean expected utility of the two apparatuses is the same)
     2. Box lights on both apparatuses light up; one in blue, the other in white (every four trials the location of each of these colours will switch side).
-    3. Following a 5 s synchronisation delay, the red lever lights on both apparatuses come on simultaneously and both levers are unblocked (for max. 10 s)
+    3. Following a 5 s synchronization delay, the red lever lights on both apparatuses come on simultaneously and both levers are unblocked (for max. 10 s)
     4. Monkey selects a lever and pulls, an acoustic cue sounds and at the same time both lights go out and the levers are both blocked
     5. In human condition the carousel rotates and food drops into back of the apparatus; human takes the food and hands it to the monkey. In the machine condition the carousel rotates and drops food into the front of the apparatus; monkey takes the food from the opening.
     6. 5 s inter-trial interval gives monkey time to consume food
@@ -366,7 +366,7 @@ for trial_id in range(0, 16):
                      side_risky=side_risky,
                      event_id="BEGIN_TRIAL")
 
-    # 3. Following a 5 s synchronisation delay, the red lever lights on both
+    # 3. Following a 5 s synchronization delay, the red lever lights on both
     # apparatuses come on simultaneously and both levers are unblocked
     # (for max. LEVER_ACTIVE_TIME s)
 
