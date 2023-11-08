@@ -17,7 +17,7 @@ from apparatus.ledout import COLORS  # Color definitions
 
 # CONFIG ##################################################
 
-# Session #juditchangeme ==================================
+# Session settings #changeme ==================================
 EXPERIMENTER = "Louis"
 SUBJECT_NAME = "Balu"
 SEX = "M"
@@ -31,7 +31,7 @@ SESSION_NR = 1
 
 # Depends on DISTRIBUTOR_FIRST
 DISTRIBUTOR_MACHINE = True
-# Session #juditchangeme ==================================
+# Session settings #changeme ==================================
 
 # Auto settings
 COLOR_SAFE = "WHITE" if COLOR_RISK == "BLUE" else "BLUE"

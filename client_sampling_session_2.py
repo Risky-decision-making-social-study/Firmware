@@ -48,7 +48,7 @@ from monkey_list import MONKEYS, getMonkeyDBVariablesSampling2
 # CONFIG ##################################################
 
 
-# Session #juditchangeme ==================================
+# Session settings #changeme ==================================
 
 # Monkey Picker
 (
@@ -145,7 +145,7 @@ HUMANLIGHT_COLORCODE = {
     WIN_REWARD_OUTCOME: COLORS['GREEN'],
 }
 
-# Session #juditchangeme ==================================
+# Session settings #changeme ==================================
 
 # Auto settings
 DISTRIBUTOR = "MACHINE" if DISTRIBUTOR_MACHINE else "HUMAN"

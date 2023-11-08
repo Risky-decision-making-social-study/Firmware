@@ -3,7 +3,7 @@ import optparse
 import socketserver
 import sys
 
-from RPi import GPIO
+#from RPi import GPIO
 
 from apparatus import queuelogger, util
 from apparatus.apparatus import Apparatus

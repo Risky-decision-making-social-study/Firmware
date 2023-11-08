@@ -46,7 +46,7 @@ from monkey_list import MONKEYS, getMonkeyDBVariables
 
 # CONFIG ##################################################
 
-# Session #juditchangeme
+# Session settings #changeme
 # Monkey Picker
 (
     SUBJECT_NAME,
@@ -71,7 +71,7 @@ DISTRIBUTOR_MACHINE = False
 CUR_REWARD_OUTCOME = 2  # Current reward outcome
 NON_REWARD_OUTCOME = "None"  # Timeout reward outcome
 
-# Session #juditchangeme ==================================
+# Session settings #changeme ==================================
 
 # Auto settings
 DISTRIBUTOR = "MACHINE" if DISTRIBUTOR_MACHINE else "HUMAN"
