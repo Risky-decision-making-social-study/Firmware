@@ -2,6 +2,10 @@
 
 This repository contains the firmware files and documentation for the “How does social context modulate risky decision-making in long-tailed macaques (Macaca fascicularis)? A research report on problematic issues with a repeated sampling from experience paradigm” project. The project aims to provide a comprehensive guide for building a CNC machine using 3D printed parts.
 
+## Publication
+
+[![DOI](https://zenodo.org/badge/713590781.svg)](https://doi.org/10.5281/zenodo.17052698)
+
 ## Usage
 
 Files starting with "client" containing the code for the experiments and connect to the apparatuses with TCP to control them remotely. Run each session type corresponding file to conduct a session, also edit the sections indicated by "Session settings #changeme" to set the session and recording parameters corectly according to the subject and session details.
